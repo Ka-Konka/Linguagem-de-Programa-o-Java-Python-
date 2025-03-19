@@ -1,4 +1,4 @@
-'''#ex_01:
+'''#ex 01:
 
 def medias(n1,n2,n3):
     media_aritmetica = (n1 + n2 + n3) / 3
@@ -14,7 +14,7 @@ n2 = float(input('Insira uma 2ª nota: '))
 n3 = float(input('Insira uma 3ª nota: '))
 medias(n1,n2,n3)'''
 
-'''#ex_02: 
+'''#ex 02:
 
 def conversor(tempo):
     minutos = int(tempo / 60)
@@ -31,4 +31,14 @@ def conversor(tempo):
 segundos = float(input('Insina um tempo sem Segundos: '))
 conversor(segundos)'''
 
-#ex_03:
+'''ex 03:
+
+def taxxad(valor, taxa=0):
+    if valor > 500:
+        taxa = (valor - 500) * 0.5
+        print(f'Suas mercadorias de {valor} foram taxadas em {taxa}')
+    else:
+        print('Suas mercadorias não foram taxadas!')
+
+compras = float(input('Insira o valor total das mercadorias compradas: '))
+taxxad(compras)'''
